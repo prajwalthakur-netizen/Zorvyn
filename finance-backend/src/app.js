@@ -6,7 +6,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://zorvyn-olive.vercel.app'
+    'https://zorvyn-olive-phi.vercel.app'
   ],
   credentials: true
 }));
